@@ -1,8 +1,7 @@
 API.chatLog(":ballot_box_with_check: Označovač 3000 - NAČTEN!");
 API.on(API.CHAT, lol); /* lemonjesuper */
  
- 
-/* lemonjesuper */
+ /* lemonjesuper */
  
 function lol(a) {
     var me = API.getUser().id;
