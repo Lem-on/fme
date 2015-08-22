@@ -10,7 +10,7 @@ function lol(a) {
     var from = a.uid;
     if (me != from) {
         if (msg.toLowerCase().indexOf("označ") > -1) {
-            API.sendChat("@"+msgData.un+"");
+            API.sendChat("@"+msgData.un+" Hell Yeah!");
         }
     }
 }
