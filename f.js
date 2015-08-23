@@ -1,4 +1,4 @@
-API.chatLog("Nebuď sprostý nebo tě kopnu! [LOADED]");
+API.chatLog("Nebuď sprostý nebo tě kopnu! v69.6.9 [LOADED]");
 API.on(API.CHAT, lol); /* lemon */
  
  
