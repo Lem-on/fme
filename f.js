@@ -9,7 +9,13 @@ function lol(a) {
     var msg = a.message;
     var from = a.uid;
     if (me != from) {
-        if (msg.toLowerCase().indexOf("koza") > -1) {
+        if (msg.toLowerCase().indexOf("čurák") > -1) {
+            API.sendChat("@"+a.un+" Nebuď sprostý nebo tě kopnu!");
+        }
+        if (msg.toLowerCase().indexOf("debil") > -1) {
+            API.sendChat("@"+a.un+" Nebuď sprostý nebo tě kopnu!");
+        }
+            if (msg.toLowerCase().indexOf("čurák") > -1) {
             API.sendChat("@"+a.un+" Nebuď sprostý nebo tě kopnu!");
         }
     }
