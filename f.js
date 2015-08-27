@@ -4,13 +4,12 @@ API.on(API.CHAT, lol); /* lemon */
  
 /* lemon */
  
-function lol(a) {
-    var me = API.getUser().id;
-    var msg = a.message;
-    var from = a.uid;
-    if (me != from) {
-        if (msg.toLowerCase().indexOf("koza") > -1) {
-            API.sendChat("@"+msgData+" Nebuď sprostý nebo tě kopnu!");
-        }
-    }
+function tessijesuper(love){
+	var msgData = love;
+			var narcisekjekrasavec = msgData.message.replace("koza", "");
+			nakresli(narcisekjekrasavec.toUpperCase());
+		} else {
+			API.sendChat("@"+msgData.un+" Nebuď sprostý nebo tě kopnu!");
+		}
+	}
 }
