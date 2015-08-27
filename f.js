@@ -10,6 +10,7 @@ function lol(a) {
     var from = a.uid;
     if (me != from) {
         if (msg.toLowerCase().indexOf("koza") > -1) {
+        if (msg.toLowerCase().indexOf("perník") > -1) {
             API.sendChat("@"+a.un+" Nebuď sprostý nebo tě kopnu!");
         }
     }
