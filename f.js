@@ -21,9 +21,6 @@ function lol(a) {
         if (msg.toLowerCase().indexOf("kretén") > -1) {
             API.sendChat("@"+a.un+" Nebuď sprostý nebo tě kopnu!");
         }
-        if (msg.toLowerCase().indexOf("kurva") > -1) {
-            API.sendChat("@"+a.un+" Nebuď sprostý nebo tě kopnu!");
-        }
         if (msg.toLowerCase().indexOf("píča") > -1) {
             API.sendChat("@"+a.un+" Nebuď sprostý nebo tě kopnu!");
         }
