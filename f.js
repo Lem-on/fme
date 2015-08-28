@@ -12,9 +12,6 @@ function lol(a) {
         if (msg.toLowerCase().indexOf("čurák") > -1) {
             API.sendChat("@"+a.un+" Nebuď sprostý nebo tě kopnu!");
         }
-        if (msg.toLowerCase().indexOf("srač") > -1) {
-            API.sendChat("@"+a.un+" Nebuď sprostý nebo tě kopnu!");
-        }
         if (msg.toLowerCase().indexOf("skip") > -1) {
             API.sendChat("@"+a.un+" Pokud tento song neporušuje pravidla tak ho prostě nepřeskočím! :/");
         }
