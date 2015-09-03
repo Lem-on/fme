@@ -1,8 +1,8 @@
 API.chatLog("/me L.BOT v6.9 "Banana" :banana: Loaded :white_check_mark:");
-API.on(API.CHAT, lol); /* lemon */
+API.on(API.CHAT, lol); /* seznam */
  
  
-/* lemon */
+/* seznam */
  
 function lol(a) {
     var me = API.getUser().id;
