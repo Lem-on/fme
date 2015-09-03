@@ -1,4 +1,4 @@
-API.chatLog(/me :white_check_mark: L.BOT v6.9 "banana" :banana: );
+API.chatLog("/me :white_check_mark: L.BOT v6.9 "banana" :banana:");
 API.on(API.CHAT, lol); /* lemon */
  
  
